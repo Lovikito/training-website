@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+    @apply shadow-md py-3 px-6 rounded-md transition duration-300 
+}
+
+html{
+    scroll-behavior: smooth;
+}
